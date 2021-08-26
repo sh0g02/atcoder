@@ -35,8 +35,7 @@ def eratos(i)
     i if v
   end
 
-  puts result
-
+  puts result.compact
 end
 
 require 'benchmark'
