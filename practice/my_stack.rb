@@ -1,7 +1,8 @@
 # 一時的にデータを対比したいときに有利なデータ構造
-class Stack
+class MyStack
   def initialize
     @top = 0
+    @stack = []
   end
 
   def empty?
