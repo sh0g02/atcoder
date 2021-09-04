@@ -2,9 +2,6 @@
 
 # Last in First out
 class MyStack
-  # getter, setter
-  attr_accessor :stack
-
   def initialize
     @top = 0
     @stack = Array.new(1000)
