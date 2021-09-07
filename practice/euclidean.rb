@@ -4,6 +4,7 @@ def gcd(x, y)
   y = [x, y].min
 
   while y > 0
+    # yが0になるまで
     r = x % y
     x = y
     y = r
